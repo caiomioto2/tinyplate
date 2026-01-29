@@ -20,6 +20,7 @@ Este arquivo fornece instruções ao Claude Code quando trabalhando neste reposi
 | AbacatePay | `/abacatepay` | Pagamentos PIX (Brasil) |
 | Cloudflare | `/cloudflare` | DNS, domínios, email routing, R2 storage |
 | Favicon | `/favicon` | Geração de favicons e app icons |
+| Remotion | `/remotion` | Video rendering para Remotion projects |
 
 ## Commands Disponíveis
 
@@ -116,6 +117,17 @@ Geração de favicons:
 - Apple touch icon e Android chrome
 - Web manifest para PWA
 - Configuração de metadata Next.js
+
+### Remotion
+```bash
+/remotion
+```
+Video rendering com Remotion:
+- Render frames individuais (3-5s vs 30-60s no browser)
+- Auto-start dev server se não estiver rodando
+- Valida composition IDs e frame ranges
+- Parallel rendering para múltiplos frames
+- **Requer:** `REMOTION_PROJECT_PATH` environment variable
 
 ## Segurança
 

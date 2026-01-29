@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "organization": "boazsobrado",
+  "date": "January 2026",
+  "abstract": "Remotion video development toolkit for Claude Code. Quickly render Remotion composition frames for visual inspection during development, replacing slow Chrome-based workflow with direct rendering.",
+  "references": [
+    "https://github.com/remotion-dev/remotion",
+    "https://www.remotion.dev"
+  ]
+}

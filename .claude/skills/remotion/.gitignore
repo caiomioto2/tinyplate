@@ -1,0 +1,15 @@
+# Claude Code specific
+.claude/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*~
+
+# Render output
+/tmp/claude-frames/
